@@ -1,0 +1,36 @@
+body {
+  background-color: hsl(0, 0%, 23%);
+}
+
+.blank {
+  width: 90%;
+}
+#profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  position: relative;
+  float: left;
+}
+a {
+  color: hsl(180, 100%, 97%);
+}
+.google-logo {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  position: center;
+}
+#google-logo {
+  width: 40%;
+  height: 100px;
+}
+
+nav {
+  position: right;
+}
