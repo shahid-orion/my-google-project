@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
     <link rel="stylesheet" href="./styles_google.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Google</title>
 
 </head>
 <body>
@@ -14,80 +17,68 @@
 
     <!-- Navigation-->
     <header class="header">
-        <div class="blank"></div>
-        <nav>
+        <div class="nav-left"></div>
+        <div class="nav-right">
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <button>
-                <i class="fas fa-ellipsis-h"></i>
-            </button>
-        </nav>
+            <span class="material-icons">
+                apps
+            </span>
+        </div>
         <div class="account-image">
             <a href="#">
                 <img id="profile-pic" src="./profile-pic.jpg" alt="">
             </a>
         </div>
-   
     </header>
 
 
-    <!--Page Content -->
     <div class="content">
-        <div class="google-logo">
-            <a href="http://www.google.com">
-                <img id="google-logo" src="./google-logo-9831.png" alt="Google">
+        <div class="image">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+        </div>
+        <div class="search">
+            <span class="material-icons">
+                search
+                </span>
+            <input type="text" placeholder="Search Google or type a URL">
+            <span class="material-icons">
+                mic
+                </span>
+        </div>
+
+        <div class="tile-history">
+            <a href="" class="tile">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="tile">
+                <i class="fab fa-ebay"></i>
+            </a>
+            <a href="" class="tile">
+                <i class="fab fa-amazon"></i>
+            </a>
+            <a href="" class="tile">
+                <i class="fab fa-cc-paypal"></i>
+            </a>
+            <a href="" class="tile">
+                <i class="fab fa-apple"></i>
+            </a>
+            <a href="" class="tile">
+                <i class="fas fa-charging-station"></i>
             </a>
         </div>
-        <div class="search-box">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Search Google or type URL">
-            <i class="fas fa-microphone-slash"></i>
-        </div>
-        <div class="shortcuts">
-            <a href="#">
-                <figure>
-                    <i class="fab fa-amazon"></i>
-                </figure>
-                <figcaption>Amazon</figcaption>
-            </a>
-            <a href="#">
-                <figure>
-                    <i class="fab fa-facebook-square"></i>               
-                </figure>
-                <figcaption>facebook</figcaption>
-            </a>
-            <a href="#">
-                <figure>
-                    <i class="fab fa-cc-paypal"></i>
-                </figure>
-                <figcaption>PayPal</figcaption>
-            </a>
-            <a href="#">
-                <figure>
-                    <i class="fab fa-amazon-pay"></i>
-                </figure>
-                <figcaption>Amazon</figcaption>
-            </a>
-            <a href="#">
-                <figure>
-                    <i class="fab fa-amazon-pay"></i>
-                </figure>
-                <figcaption>Amazon</figcaption>
-            </a>
-            <a href="#">
-                <figure>
-                    <i class="fab fa-amazon-pay"></i>
-                </figure>
-                <figcaption>Amazon</figcaption>
-            </a>
-        </div>
+
+        <footer>
+            <div class="foot">
+                <span class="material-icons">
+                    edit
+                </span>
+                <a href="#">
+                    <labei>Customize Chrome</labei>
+                </a>
+            </div>
+        </footer>
+
     </div>
-    <footer class="footer-content">
-        <div class="customize-div">
-            <i class="fas fa-edit"></i>
-            <button class="customize-button">Customize Chrome</button>
-        </div>
-    </footer>
-   </div>
 </body>
 </html>
